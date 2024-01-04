@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import supabase from '../Supabase';
 
- const page = ({ carId }) => {
+ const Page = ({ carId }) => {
 
   const [formData, setFormData] = useState({
     make: '',
@@ -261,4 +261,4 @@ import supabase from '../Supabase';
     </>
   )
 }
-export default page
+export default Page

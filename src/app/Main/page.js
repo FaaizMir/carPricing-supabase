@@ -4,7 +4,7 @@ import Link from 'next/link'
 import supabase from '../Supabase';
 
 
-const page = () => {
+const Page = () => {
 
   const handleLogout = async () => {
     try {
@@ -72,4 +72,4 @@ const page = () => {
     </div>
   )
 }
-export default page;
+export default Page;

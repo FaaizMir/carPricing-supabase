@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import supabase from '../Supabase';
 
-const Login = () => {
+const Page = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -70,4 +70,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Page;

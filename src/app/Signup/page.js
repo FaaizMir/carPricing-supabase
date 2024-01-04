@@ -2,10 +2,8 @@
 "use client"
 import { useState } from 'react';
 import supabase from '../Supabase';
-// import { useRouter } from "next/router"; // Correct import
 
-const page = () => {
-  // const router=useRouter();
+const Page = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -76,4 +74,4 @@ const page = () => {
   ));
 };
 
-export default page;
+export default Page;

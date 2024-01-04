@@ -1,8 +1,10 @@
+/* client only */
+"use client";
 import React from 'react'
 import Link from "next/link";
 import supabase from '../Supabase';
 import { useEffect } from 'react';
- const page = () => {
+ const Page = () => {
 
     useEffect(() => {
         const checkAuth = async () => {
@@ -96,4 +98,4 @@ import { useEffect } from 'react';
     </div></>
   )
 }
-export default page
+export default Page
